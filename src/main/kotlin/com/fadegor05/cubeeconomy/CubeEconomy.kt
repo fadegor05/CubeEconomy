@@ -17,7 +17,7 @@ class CubeEconomy : ModInitializer {
     override fun onInitialize() {
         ModItems.registerItems()
         registerMintingCommand(
-            "mint_copper", "create:copper_sheet", ModItems.COPPER_COIN
+            "mint_copper", "minecraft:copper_ingot", ModItems.COPPER_COIN
         )
         registerMintingCommand(
             "mint_zinc", "create:zinc_ingot", ModItems.ZINC_COIN
